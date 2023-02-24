@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+mainClassName = 'Main'
+dependencies {
+    implementation 'com.vk.api:sdk:1.0.6'
+    implementation 'javax.activation:javax.activation-api:1.2.0'
+    implementation 'javax.mail:javax.mail-api:1.6.2'
+    implementation "org.postgresql:postgresql:42.2.2"
+    implementation 'com.sun.mail:javax.mail:1.6.2'
+}
